@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<!--[if IE 8 ]><html dir="{{ direction }}" lang="{{ lang }}" class="ie8"><![endif]-->
+<!--[if IE 9 ]><html dir="{{ direction }}" lang="{{ lang }}" class="ie9"><![endif]-->
+<!--[if (gt IE 9)|!(IE)]><!-->
+{% if page_direction == 'rtl' %}
+	{% set direction = 'rtl'%}
+{% endif %}
+<html dir="{{ direction }}" lang="{{ lang }}" class="{{ responsive ? mobile-responsive-off : '' }}">
+<!--<![endif]-->
+<head>
+	<meta charset="UTF-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>{{ title }}</title>
+	<base href="{{ base }}" />
+
+	{% if description %}
+		<meta name="description" content="{{ description }}" />
+	{% endif %}
+
+	{% if keywords %}
+		<meta name="keywords" content="{{ keywords }}" />
+	{% endif %}
+
+	{% for meta in add_this_meta %}
+		<meta property="og:{{ meta.property }}" content="{{ meta.content }}" />
+	{% endfor %}
+
+	{# fonts #}
+	<link href="catalog/view/javascript/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css" />
+	<link href="catalog/view/theme/{{ theme_path }}/stylesheet/material-design.css" rel="stylesheet">
+	<link href="catalog/view/theme/{{ theme_path }}/stylesheet/fl-bigmug-line.css" rel="stylesheet">
+	<link href="catalog/view/theme/{{ theme_path }}/stylesheet/restaurant.css" rel="stylesheet">
+	<link href="//fonts.googleapis.com/css?family=Raleway:200,300,400,500,600,700,800,900&amp;subset=latin-ext" rel="stylesheet">
+	<link href="//fonts.googleapis.com/css?family=Open+Sans:400,600,700,800&amp;subset=cyrillic,cyrillic-ext,greek,greek-ext,latin-ext,vietnamese" rel="stylesheet">
+	<link href="//fonts.googleapis.com/css?family=Quicksand:300,400,500" rel="stylesheet"> 
+	{# end fonts #}
+
+	<link href="catalog/view/javascript/bootstrap/css/bootstrap.min.css" rel="stylesheet" media="screen" />
+	{# styles #}
+	<link href="catalog/view/theme/{{ theme_path }}/stylesheet/stylesheet.css" rel="stylesheet">
+	<link href="catalog/view/theme/{{ theme_path }}/js/fancybox/jquery.fancybox.css" rel="stylesheet">
+	{# end styles #}
+	{# rtl #}
+	{% if direction == 'rtl' %}
+		<link href="catalog/view/theme/{{ theme_path }}/stylesheet/bootstrap-rtl.css" rel="stylesheet">
+		<link href="catalog/view/theme/{{ theme_path }}/stylesheet/rtl.css" rel="stylesheet">
+	{% endif %}
+	{# end rtl #}
+	{% for style in styles %}
+		<link href="{{ style.href }}" type="text/css" rel="{{ style.rel }}" media="{{ style.media }}" />
+	{% endfor %}
+
+	{% for link in links %}
+		<link href="{{ link.href }}" rel="{{ link.rel }}" />
+	{% endfor %}
+
+	{% if color_scheme_link %}
+		<link id="color_scheme" href="{{ color_scheme_link }}" rel="stylesheet">
+	{% endif %}
+
+	<script src="catalog/view/javascript/jquery/jquery-2.1.1.min.js" type="text/javascript"></script>
+	<script src="catalog/view/javascript/bootstrap/js/bootstrap.min.js" type="text/javascript"></script>
+
+	{% for script in scripts %}
+		<script src="{{ script }}" type="text/javascript"></script>
+	{% endfor %}
+
+	{% for analytic in analytics %}
+		{{ analytic }}
+	{% endfor %}
+</head>
+<body>
+
+	<p id="gl_path" class="hidden">{{ theme_path }}</p>
+	<div id="page">
+		<div id="page-preloader" class="visible">
+			<div class="preloader">
+				<div class="squares">
+				<div class="square loader-1"></div>
+				<div class="square loader-2"></div>
+				<div class="square loader-4"></div>
+				<div class="square loader-3"></div>
+				</div>
+			</div>
+		</div>
+		<div class="ie-warning">
+			<a href="//windows.microsoft.com/en-us/internet-explorer/download-ie">
+				<img src="catalog/view/theme/{{ theme_path }}/image/warning_bar_0000_us.jpg" height="75" width="1170" alt="You are using an outdated browser. For a faster, safer browsing experience, upgrade for free today."/>
+			</a>
+		</div>
+		<div class="demo-border">
+				<div class="container">
+						<a href="https://www.templatemonster.com/opencart-templates/sweet-shop-responsive-opencart-template-64990.html" class="demo-img"><img src="image/catalog/demo/Sweet shop.jpg" alt=""></a>
+				</div>
+				</div>
+		<header>
+			<div id="stuck" class="stuck-menu">
+				<div class="top-line">
+					<div class="container">
+						<div class="row">
+							<div class="col-xs-6 col-sm-3 col-md-3 col-lg-3">
+								{{ language }}
+								{{ currency }}
+								{% if header_top %}
+									<div class="header_modules">
+										{{ header_top }}
+									</div>
+								{% endif %}
+							</div>
+							<div class="col-xs-6 col-sm-9 col-md-9 col-lg-9">
+								<nav id="top-links" class="nav toggle-wrap">
+									<a class="toggle material-design-settings49" href='#'></a>
+									<ul class="toggle_cont toggle_menu">
+										{% if logged %}
+											<li><a href="{{ logout }}"><i class="fl-bigmug-line-download146"></i>{{ text_logout }}</a></li>
+											<li><a href="{{ account }}">{{ text_account }}</a></li>
+											<li><a href="{{ order }}">{{ text_order }}</a></li>
+											<li><a href="{{ transaction }}">{{ text_transaction }}</a></li>
+											<li><a href="{{ download }}">{{ text_download }}</a></li>
+											<li><a href="{{ checkout }}">{{ text_checkout }}</a></li>
+										{% else %}
+											<li><a href="{{ login }}"><i class="fl-bigmug-line-download146"></i>{{ text_login }}</a></li>
+										{% endif %}
+										<li class="toggle-wrap"><a href="{{ register }}">{{ text_register }}</a></li>
+									</ul>
+								</nav>
+								<div class="wishlist">
+									<a href="{{ wishlist }}" id="wishlist-total" title="{{ text_wishlist }}">
+										<i class="fl-bigmug-line-like51"></i>
+										{{ text_wishlist }}
+									</a>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="mid-line">
+				<div class="container">
+					<div class="row">
+						<div class="col-sm-4 col-xs-4">
+							<div id="logo" class="logo">
+								{% if logo %}
+									<a href="{{ home }}">
+										<img src="{{ logo }}" title="{{ name }}" alt="{{ name }}" class="img-responsive" />
+									</a>
+								{% else %}
+									<h1>
+										<a href="{{ home }}">{{ name }}</a>
+									</h1>
+								{% endif %}
+							</div>
+						</div>
+						<div class="col-sm-8 col-xs-8">
+							{{ search }}
+							{{ cart }}
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="bot-line">
+				{% if navigation %}
+					<div class="navigation">
+						{{ navigation }}
+					</div>
+				{% endif %}
+			</div>
+		</header>

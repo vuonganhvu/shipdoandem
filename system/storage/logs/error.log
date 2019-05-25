@@ -1,0 +1,43 @@
+2019-05-25 17:18:37 - PHP Warning:  A non-numeric value encountered in C:\xampp\htdocs\shipdoandem\admin\model\localisation\currency.php on line 141
+2019-05-25 17:18:37 - PHP Warning:  Division by zero in C:\xampp\htdocs\shipdoandem\admin\model\localisation\currency.php on line 141
+2019-05-25 17:18:37 - PHP Warning:  A non-numeric value encountered in C:\xampp\htdocs\shipdoandem\admin\model\localisation\currency.php on line 141
+2019-05-25 17:18:37 - PHP Warning:  Division by zero in C:\xampp\htdocs\shipdoandem\admin\model\localisation\currency.php on line 141
+2019-05-25 17:18:37 - PHP Warning:  A non-numeric value encountered in C:\xampp\htdocs\shipdoandem\admin\model\localisation\currency.php on line 141
+2019-05-25 17:18:37 - PHP Warning:  Division by zero in C:\xampp\htdocs\shipdoandem\admin\model\localisation\currency.php on line 141
+2019-05-25 18:58:39 - PHP Notice:  Undefined index: code in C:\xampp\htdocs\shipdoandem\admin\model\design\layout.php on line 38
+2019-05-25 19:17:14 - PHP Notice:  Array to string conversion in C:\xampp\htdocs\shipdoandem\system\library\template\Twig\Environment.php(404) : eval()'d code on line 629
+2019-05-25 19:17:14 - PHP Notice:  Array to string conversion in C:\xampp\htdocs\shipdoandem\system\library\template\Twig\Environment.php(404) : eval()'d code on line 631
+2019-05-25 19:17:14 - PHP Notice:  Array to string conversion in C:\xampp\htdocs\shipdoandem\system\library\template\Twig\Environment.php(404) : eval()'d code on line 629
+2019-05-25 19:17:14 - PHP Notice:  Array to string conversion in C:\xampp\htdocs\shipdoandem\system\library\template\Twig\Environment.php(404) : eval()'d code on line 631
+2019-05-25 19:17:14 - PHP Notice:  Array to string conversion in C:\xampp\htdocs\shipdoandem\system\library\template\Twig\Environment.php(404) : eval()'d code on line 629
+2019-05-25 19:17:14 - PHP Notice:  Array to string conversion in C:\xampp\htdocs\shipdoandem\system\library\template\Twig\Environment.php(404) : eval()'d code on line 631
+2019-05-25 19:17:14 - PHP Notice:  Array to string conversion in C:\xampp\htdocs\shipdoandem\system\library\template\Twig\Environment.php(404) : eval()'d code on line 801
+2019-05-25 19:17:14 - PHP Notice:  Array to string conversion in C:\xampp\htdocs\shipdoandem\system\library\template\Twig\Environment.php(404) : eval()'d code on line 803
+2019-05-25 19:17:14 - PHP Notice:  Array to string conversion in C:\xampp\htdocs\shipdoandem\system\library\template\Twig\Environment.php(404) : eval()'d code on line 801
+2019-05-25 19:17:14 - PHP Notice:  Array to string conversion in C:\xampp\htdocs\shipdoandem\system\library\template\Twig\Environment.php(404) : eval()'d code on line 803
+2019-05-25 19:17:14 - PHP Notice:  Array to string conversion in C:\xampp\htdocs\shipdoandem\system\library\template\Twig\Environment.php(404) : eval()'d code on line 801
+2019-05-25 19:17:14 - PHP Notice:  Array to string conversion in C:\xampp\htdocs\shipdoandem\system\library\template\Twig\Environment.php(404) : eval()'d code on line 803
+2019-05-25 19:17:42 - PHP Notice:  Array to string conversion in C:\xampp\htdocs\shipdoandem\system\library\template\Twig\Environment.php(404) : eval()'d code on line 629
+2019-05-25 19:17:42 - PHP Notice:  Array to string conversion in C:\xampp\htdocs\shipdoandem\system\library\template\Twig\Environment.php(404) : eval()'d code on line 631
+2019-05-25 19:17:42 - PHP Notice:  Array to string conversion in C:\xampp\htdocs\shipdoandem\system\library\template\Twig\Environment.php(404) : eval()'d code on line 629
+2019-05-25 19:17:42 - PHP Notice:  Array to string conversion in C:\xampp\htdocs\shipdoandem\system\library\template\Twig\Environment.php(404) : eval()'d code on line 631
+2019-05-25 19:17:42 - PHP Notice:  Array to string conversion in C:\xampp\htdocs\shipdoandem\system\library\template\Twig\Environment.php(404) : eval()'d code on line 629
+2019-05-25 19:17:42 - PHP Notice:  Array to string conversion in C:\xampp\htdocs\shipdoandem\system\library\template\Twig\Environment.php(404) : eval()'d code on line 631
+2019-05-25 19:17:42 - PHP Notice:  Array to string conversion in C:\xampp\htdocs\shipdoandem\system\library\template\Twig\Environment.php(404) : eval()'d code on line 801
+2019-05-25 19:17:42 - PHP Notice:  Array to string conversion in C:\xampp\htdocs\shipdoandem\system\library\template\Twig\Environment.php(404) : eval()'d code on line 803
+2019-05-25 19:17:42 - PHP Notice:  Array to string conversion in C:\xampp\htdocs\shipdoandem\system\library\template\Twig\Environment.php(404) : eval()'d code on line 801
+2019-05-25 19:17:42 - PHP Notice:  Array to string conversion in C:\xampp\htdocs\shipdoandem\system\library\template\Twig\Environment.php(404) : eval()'d code on line 803
+2019-05-25 19:17:42 - PHP Notice:  Array to string conversion in C:\xampp\htdocs\shipdoandem\system\library\template\Twig\Environment.php(404) : eval()'d code on line 801
+2019-05-25 19:17:42 - PHP Notice:  Array to string conversion in C:\xampp\htdocs\shipdoandem\system\library\template\Twig\Environment.php(404) : eval()'d code on line 803
+2019-05-25 19:17:44 - PHP Notice:  Array to string conversion in C:\xampp\htdocs\shipdoandem\system\library\template\Twig\Environment.php(404) : eval()'d code on line 629
+2019-05-25 19:17:44 - PHP Notice:  Array to string conversion in C:\xampp\htdocs\shipdoandem\system\library\template\Twig\Environment.php(404) : eval()'d code on line 631
+2019-05-25 19:17:44 - PHP Notice:  Array to string conversion in C:\xampp\htdocs\shipdoandem\system\library\template\Twig\Environment.php(404) : eval()'d code on line 629
+2019-05-25 19:17:44 - PHP Notice:  Array to string conversion in C:\xampp\htdocs\shipdoandem\system\library\template\Twig\Environment.php(404) : eval()'d code on line 631
+2019-05-25 19:17:44 - PHP Notice:  Array to string conversion in C:\xampp\htdocs\shipdoandem\system\library\template\Twig\Environment.php(404) : eval()'d code on line 629
+2019-05-25 19:17:44 - PHP Notice:  Array to string conversion in C:\xampp\htdocs\shipdoandem\system\library\template\Twig\Environment.php(404) : eval()'d code on line 631
+2019-05-25 19:17:44 - PHP Notice:  Array to string conversion in C:\xampp\htdocs\shipdoandem\system\library\template\Twig\Environment.php(404) : eval()'d code on line 801
+2019-05-25 19:17:44 - PHP Notice:  Array to string conversion in C:\xampp\htdocs\shipdoandem\system\library\template\Twig\Environment.php(404) : eval()'d code on line 803
+2019-05-25 19:17:44 - PHP Notice:  Array to string conversion in C:\xampp\htdocs\shipdoandem\system\library\template\Twig\Environment.php(404) : eval()'d code on line 801
+2019-05-25 19:17:44 - PHP Notice:  Array to string conversion in C:\xampp\htdocs\shipdoandem\system\library\template\Twig\Environment.php(404) : eval()'d code on line 803
+2019-05-25 19:17:44 - PHP Notice:  Array to string conversion in C:\xampp\htdocs\shipdoandem\system\library\template\Twig\Environment.php(404) : eval()'d code on line 801
+2019-05-25 19:17:44 - PHP Notice:  Array to string conversion in C:\xampp\htdocs\shipdoandem\system\library\template\Twig\Environment.php(404) : eval()'d code on line 803
